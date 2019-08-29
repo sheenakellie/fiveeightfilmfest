@@ -1,0 +1,170 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; */
+* {
+  /* border: 1px solid red; */
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: white;
+  font-family:'EB Garamond', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+  font-weight: 7;
+  text-align: center;
+  line-height: 1;
+}
+
+h2 {
+  text-align: center;
+}
+
+section.loction {
+  font-family:'EB Garamond', serif;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+  font-weight: 7;
+  text-align: center;
+  line-height: 1;
+}
+
+span.large {
+  font-size: 129px;
+
+}
+
+span.little {
+  font-size: 77px;
+  display: block;
+}
+
+
+section {
+  min-height: 80vh;
+}
+
+.wrapper {
+  padding: 50px 10%;
+}
+.banner {
+  text-align: center;
+  background-image: linear-gradient(rgba(150,210,255,0.8), rgba(0,0,0,0.3)), url(lake.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+.banner  p {
+    font-weight: 700;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+    line-height: 0.5;
+    font-size: 79px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  transition: all 0.3s;
+
+}
+
+.button:hover {
+  color: rgb(150,210,255);
+  border: 3px solid rgb(150, 210, 255);
+}
+
+
+.bigimage {
+  padding: 10%;
+  background:  rgb(150, 210, 255);
+}
+
+.moviesandposters .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+.moviesandposters h2 {
+  width: 100%;
+  flex-grow: 1;
+}
+.movie {
+  width: 50%;
+  padding: 25px;
+}
+
+@media (max-width:650px) {
+  .movie {
+    width: 100%;
+  }
+
+}
+
+.abovemoviesandposters {
+  background-image: linear-gradient(rgba(150,210,255,0.8),rgba(0,0,0,0.3)), url(plants.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+.aboveloction {
+  background-image: linear-gradient(rgba(150,210,255,0.8),rgba(0,0,0,0.3)), url(sky.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+.abovesponsors {
+  background-image: linear-gradient(rgba(150,210,255,0.8),rgba(0,0,0,0.3)), url(shore.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+.abovevolunteer {
+  background-image: linear-gradient(rgba(150,210,255,0.8),rgba(0,0,0,0.3)), url(waves.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+ {
+  background-position: center;
+}
